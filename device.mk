@@ -273,6 +273,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+# Kernel
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor \
